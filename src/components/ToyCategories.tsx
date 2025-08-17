@@ -1,7 +1,65 @@
 import React from 'react';
+import { useState } from 'react';
 import { Book, Car, Puzzle, Baby, Gamepad2, Heart, Rocket, Music } from 'lucide-react';
+import ToyModal from './ToyModal';
 
 const ToyCategories = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState('');
+
+  // Sample baby toys data
+  const babyToys = [
+    {
+      id: 1,
+      name: "Soft Plush Teddy Bear",
+      image: "https://images.pexels.com/photos/4792065/pexels-photo-4792065.jpeg?auto=compress&cs=tinysrgb&w=400",
+      price: "Rs. 1,200",
+      description: "Super soft and cuddly teddy bear, perfect for babies and toddlers"
+    },
+    {
+      id: 2,
+      name: "Colorful Stacking Rings",
+      image: "https://images.pexels.com/photos/1148998/pexels-photo-1148998.jpeg?auto=compress&cs=tinysrgb&w=400",
+      price: "Rs. 800",
+      description: "Educational stacking toy that helps develop motor skills"
+    },
+    {
+      id: 3,
+      name: "Baby Rattle Set",
+      image: "https://images.pexels.com/photos/1148999/pexels-photo-1148999.jpeg?auto=compress&cs=tinysrgb&w=400",
+      price: "Rs. 600",
+      description: "Safe, colorful rattles that stimulate baby's senses"
+    },
+    {
+      id: 4,
+      name: "Soft Building Blocks",
+      image: "https://images.pexels.com/photos/1148997/pexels-photo-1148997.jpeg?auto=compress&cs=tinysrgb&w=400",
+      price: "Rs. 1,500",
+      description: "Soft fabric blocks safe for babies to explore and play"
+    },
+    {
+      id: 5,
+      name: "Musical Mobile",
+      image: "https://images.pexels.com/photos/1148996/pexels-photo-1148996.jpeg?auto=compress&cs=tinysrgb&w=400",
+      price: "Rs. 2,200",
+      description: "Soothing musical mobile for cribs with gentle melodies"
+    },
+    {
+      id: 6,
+      name: "Teething Toys",
+      image: "https://images.pexels.com/photos/1148995/pexels-photo-1148995.jpeg?auto=compress&cs=tinysrgb&w=400",
+      price: "Rs. 450",
+      description: "Safe silicone teething toys to soothe baby's gums"
+    }
+  ];
+
+  const handleExploreClick = (categoryName: string) => {
+    if (categoryName === "Baby Toys") {
+      setSelectedCategory(categoryName);
+      setModalOpen(true);
+    }
+  };
+
   const categories = [
     {
       icon: <Book className="w-8 h-8" />,
@@ -97,9 +155,12 @@ const ToyCategories = () => {
                   {category.description}
                 </p>
                 <div className="text-center">
-                  <span className="inline-block bg-gradient-to-r from-blue-100 to-purple-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium">
+                  <button
+                    onClick={() => handleExploreClick(category.name)}
+                    className="inline-block bg-gradient-to-r from-blue-100 to-purple-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium hover:from-blue-200 hover:to-purple-200 transition-colors cursor-pointer"
+                  >
                     Explore Collection
-                  </span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -122,6 +183,14 @@ const ToyCategories = () => {
           </div>
         </div>
       </div>
+
+      {/* Modal */}
+      <ToyModal
+        isOpen={modalOpen}
+        onClose={() => setModalOpen(false)}
+        category={selectedCategory}
+        toys={babyToys}
+      />
     </section>
   );
 };
