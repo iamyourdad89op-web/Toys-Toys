@@ -45,27 +45,99 @@ const ToyCategories = () => {
   const carToys = [
     {
       id: 1,
+      name: "Sports Racing Car Collection",
+      image: "/car toys/images.jpg",
+      description: "Collection of colorful sports racing cars for speed enthusiasts"
+    },
+    {
+      id: 2,
+      name: "Premium RC Car",
+      image: "/car toys/unnamed (1).webp",
+      description: "High-quality remote control car with realistic details"
+    },
+    {
+      id: 3,
+      name: "Classic Sports Car",
+      image: "/car toys/unnamed.jpg",
+      description: "Sleek classic sports car with premium finish"
+    },
+    {
+      id: 4,
+      name: "Racing Vehicle",
+      image: "/car toys/unnamed.webp",
+      description: "Professional racing vehicle for competitive play"
+    },
+    {
+      id: 5,
       name: "Construction Truck",
       image: "/car toys/Imges.webp",
       description: "Heavy duty construction truck for building adventures"
     },
     {
-      id: 2,
-      name: "Remote Control Car",
-      image: "/car toys/unnamed (1).webp",
-      description: "High-speed remote control car for racing excitement"
+      id: 6,
+      name: "Model Car Collection",
+      image: "/car toys/model car.jpg",
+      description: "Detailed model cars with authentic designs"
     },
     {
-      id: 3,
-      name: "Sports Car",
-      image: "/car toys/unnamed.jpg",
-      description: "Sleek sports car toy for speed racing fun"
+      id: 7,
+      name: "RC Sports Car",
+      image: "/car toys/unnamed (1).jpg",
+      description: "Remote control sports car with advanced features"
     },
     {
-      id: 4,
-      name: "Toy Vehicle",
-      image: "/car toys/unnamed.webp",
-      description: "Durable toy vehicle for endless play adventures"
+      id: 8,
+      name: "Racing Car Set",
+      image: "/car toys/unnamed (3).webp",
+      description: "Complete racing car set for competitive play"
+    },
+    {
+      id: 9,
+      name: "Premium Vehicle",
+      image: "/car toys/unnamed (4).webp",
+      description: "Premium quality vehicle with realistic details"
+    },
+    {
+      id: 10,
+      name: "Classic Car Model",
+      image: "/car toys/unnamed copy.jpg",
+      description: "Classic car model with vintage styling"
+    },
+    {
+      id: 11,
+      name: "Speed Racer",
+      image: "/car toys/unnamed copy.webp",
+      description: "High-speed racing car for thrilling adventures"
+    },
+    {
+      id: 12,
+      name: "Luxury Sports Car",
+      image: "/car toys/unnamed (1) copy.jpg",
+      description: "Luxury sports car with premium features"
+    },
+    {
+      id: 13,
+      name: "Racing Champion",
+      image: "/car toys/unnamed (1) copy.webp",
+      description: "Championship racing car for winners"
+    },
+    {
+      id: 14,
+      name: "Super Speed Car",
+      image: "/car toys/unnamed (3) copy.webp",
+      description: "Super speed car for ultimate racing experience"
+    },
+    {
+      id: 15,
+      name: "Elite Racing Car",
+      image: "/car toys/unnamed (4) copy.webp",
+      description: "Elite racing car with professional grade quality"
+    },
+    {
+      id: 16,
+      name: "Ultimate RC Car",
+      image: "/car toys/unnamed (1) copy copy.webp",
+      description: "Ultimate remote control car with advanced technology"
     }
   ];
 
