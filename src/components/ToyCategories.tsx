@@ -45,27 +45,27 @@ const ToyCategories = () => {
   const carToys = [
     {
       id: 1,
-      name: "Blue Cement Mixer Truck",
+      name: "Construction Truck",
       image: "/car toys/Imges.webp",
-      description: "Fun blue cement mixer truck toy for construction play"
+      description: "Heavy duty construction truck for building adventures"
     },
     {
       id: 2,
-      name: "Remote Control Cars Collection",
+      name: "Remote Control Car",
       image: "/car toys/unnamed (1).webp",
-      description: "Various remote control cars for racing fun"
+      description: "High-speed remote control car for racing excitement"
     },
     {
       id: 3,
-      name: "Racing Car Set",
+      name: "Sports Car",
       image: "/car toys/unnamed.jpg",
-      description: "Colorful racing cars for speed enthusiasts"
+      description: "Sleek sports car toy for speed racing fun"
     },
     {
       id: 4,
-      name: "Vehicle Collection",
+      name: "Toy Vehicle",
       image: "/car toys/unnamed.webp",
-      description: "Assorted toy vehicles for imaginative play"
+      description: "Durable toy vehicle for endless play adventures"
     }
   ];
 
