@@ -36,7 +36,13 @@ const ToyCategories = () => {
     {
       id: 5,
       name: "",
-      image: "/IMG-20250816-WA0443.jpg",
+      image: "/I uploaded images for my Toys category “Explore Collection” section, but only an emoji (like a baby emoji 👶) is showing instead of the images I provided.
+
+Can you please:
+
+Replace the emoji with the actual images I uploaded?
+
+Make sure the images appear in a modal or gallery view when the “Explore Collection” button is clicked?",
       description: ""
     }
   ];
