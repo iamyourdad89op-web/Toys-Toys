@@ -84,7 +84,7 @@ const ToyModal: React.FC<ToyModalProps> = ({ isOpen, onClose, category, toys }) 
               </button>
             </div>
           </div>
-        toys={selectedCategory === "Baby Toys" ? babyToys : carToys}
+        </div>
       </div>
     </div>
   );
