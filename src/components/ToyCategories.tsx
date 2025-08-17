@@ -11,33 +11,33 @@ const ToyCategories = () => {
   const babyToys = [
     {
       id: 1,
-      name: "",
-      image: "/IMG-20250816-WA0395%20copy.jpg",
-      description: ""
+      name: "Soft Plush Toys Collection",
+      image: "/baby toys/collection-of-plush-toys-featuring-a-bear-bunny-giraffe-and-rabbit-in-soft-colors-and-textures-displayed-together-png.webp",
+      description: "Adorable collection of soft plush animals perfect for cuddling"
     },
     {
       id: 2,
-      name: "",
-      image: "/IMG-20250816-WA0398%20copy.jpg",
-      description: ""
+      name: "Baby Toy Set",
+      image: "/baby toys/download.jpg",
+      description: "Colorful and safe toys designed for babies and toddlers"
     },
     {
       id: 3,
-      name: "",
-      image: "/IMG-20250816-WA0399.jpg",
-      description: ""
+      name: "Educational Baby Toys",
+      image: "/baby toys/images (1).jpg",
+      description: "Fun and educational toys to help with early development"
     },
     {
       id: 4,
-      name: "",
-      image: "/IMG-20250816-WA0411.jpg",
-      description: ""
+      name: "Mixed Toy Collection",
+      image: "/baby toys/images (2).jpg",
+      description: "Variety of colorful toys for different play activities"
     },
     {
       id: 5,
-      name: "",
-      image: "/IMG-20250816-WA0411.jpg",
-      description: ""
+      name: "Activity Toys",
+      image: "/baby toys/images (3).jpg",
+      description: "Interactive toys to keep little ones engaged and entertained"
     }
   ];
 

@@ -44,14 +44,13 @@ const ToyModal: React.FC<ToyModalProps> = ({ isOpen, onClose, category, toys }) 
                   <img
                     src={toy.image}
                     alt={toy.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover rounded-lg"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.style.display = 'none';
-                      target.nextElementSibling!.classList.remove('hidden');
+                      console.error('Failed to load image:', toy.image);
+                      target.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0xMDAgNzBDOTQuNDc3MiA3MCA5MCA3NC40NzcyIDkwIDgwVjEyMEM5MCAxMjUuNTIzIDk0LjQ3NzIgMTMwIDEwMCAxMzBIMTIwQzEyNS41MjMgMTMwIDEzMCAxMjUuNTIzIDEzMCAxMjBWODBDMTMwIDc0LjQ3NzIgMTI1LjUyMyA3MCAxMjAgNzBIMTAwWiIgZmlsbD0iIzlDQTNBRiIvPgo8cGF0aCBkPSJNMTEwIDkwQzExNS41MjMgOTAgMTIwIDk0LjQ3NzIgMTIwIDEwMEMxMjAgMTA1LjUyMyAxMTUuNTIzIDExMCAxMTAgMTEwQzEwNC40NzcgMTEwIDEwMCAxMDUuNTIzIDEwMCAxMDBDMTAwIDk0LjQ3NzIgMTA0LjQ3NyA5MCAxMTAgOTBaIiBmaWxsPSIjNjM3MzgwIi8+Cjwvc3ZnPgo=';
                     }}
                   />
-                  <div className="hidden text-6xl text-gray-400">📷</div>
                 </div>
                 <div className="p-4">
                   <h3 className="font-bold text-lg text-gray-800 mb-2">{toy.name}</h3>
