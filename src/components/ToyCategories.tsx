@@ -11,33 +11,33 @@ const ToyCategories = () => {
   const babyToys = [
     {
       id: 1,
-      name: "Electric Magnetic Caterpillar",
+      name: "",
       image: "/IMG-20250816-WA0395 copy.jpg",
-      description: "Interactive magnetic caterpillar with lights, sounds and movement features"
+      description: ""
     },
     {
       id: 2,
-      name: "Jumping Dog - Musical Pet",
+      name: "",
       image: "/IMG-20250816-WA0398 copy.jpg",
-      description: "Adorable jumping dog with music, lighting, and walking features"
+      description: ""
     },
     {
       id: 3,
-      name: "Jumping Cat - Interactive Pet", 
+      name: "",
       image: "/IMG-20250816-WA0399.jpg",
-      description: "Musical jumping cat with multiple songs and interactive features"
+      description: ""
     },
     {
       id: 4,
-      name: "English Learner Laptop",
+      name: "",
       image: "/IMG-20250816-WA0411.jpg",
-      description: "Educational laptop for learning English with interactive activities"
+      description: ""
     },
     {
       id: 5,
-      name: "Learning Activity Board",
+      name: "",
       image: "/IMG-20250816-WA0443.jpg",
-      description: "Interactive learning board with buttons, zippers, and educational activities"
+      description: ""
     }
   ];
 
