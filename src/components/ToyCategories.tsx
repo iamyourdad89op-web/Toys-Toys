@@ -11,45 +11,33 @@ const ToyCategories = () => {
   const babyToys = [
     {
       id: 1,
-      name: "Soft Plush Teddy Bear",
-      image: "https://images.pexels.com/photos/4792065/pexels-photo-4792065.jpeg?auto=compress&cs=tinysrgb&w=400",
-      price: "Rs. 1,200",
-      description: "Super soft and cuddly teddy bear, perfect for babies and toddlers"
+      name: "Electric Magnetic Caterpillar",
+      image: "/IMG-20250816-WA0395 copy.jpg",
+      description: "Interactive magnetic caterpillar toy with lights and sounds"
     },
     {
       id: 2,
-      name: "Colorful Stacking Rings",
-      image: "https://images.pexels.com/photos/1148998/pexels-photo-1148998.jpeg?auto=compress&cs=tinysrgb&w=400",
-      price: "Rs. 800",
-      description: "Educational stacking toy that helps develop motor skills"
+      name: "Jumping Dog - Musical Pet",
+      image: "/IMG-20250816-WA0398 copy.jpg",
+      description: "Adorable jumping dog with music, lighting, and walking features"
     },
     {
       id: 3,
-      name: "Baby Rattle Set",
-      image: "https://images.pexels.com/photos/1148999/pexels-photo-1148999.jpeg?auto=compress&cs=tinysrgb&w=400",
-      price: "Rs. 600",
-      description: "Safe, colorful rattles that stimulate baby's senses"
+      name: "Jumping Cat - Interactive Pet",
+      image: "/IMG-20250816-WA0399.jpg",
+      description: "Musical jumping cat with multiple songs and interactive features"
     },
     {
       id: 4,
-      name: "Soft Building Blocks",
-      image: "https://images.pexels.com/photos/1148997/pexels-photo-1148997.jpeg?auto=compress&cs=tinysrgb&w=400",
-      price: "Rs. 1,500",
-      description: "Soft fabric blocks safe for babies to explore and play"
+      name: "English Learner Laptop",
+      image: "/IMG-20250816-WA0411.jpg",
+      description: "Educational laptop for learning English with interactive activities"
     },
     {
       id: 5,
-      name: "Musical Mobile",
-      image: "https://images.pexels.com/photos/1148996/pexels-photo-1148996.jpeg?auto=compress&cs=tinysrgb&w=400",
-      price: "Rs. 2,200",
-      description: "Soothing musical mobile for cribs with gentle melodies"
-    },
-    {
-      id: 6,
-      name: "Teething Toys",
-      image: "https://images.pexels.com/photos/1148995/pexels-photo-1148995.jpeg?auto=compress&cs=tinysrgb&w=400",
-      price: "Rs. 450",
-      description: "Safe silicone teething toys to soothe baby's gums"
+      name: "Learning Activity Board",
+      image: "/IMG-20250816-WA0443.jpg",
+      description: "Interactive learning board with buttons, zippers, and educational activities"
     }
   ];
 
