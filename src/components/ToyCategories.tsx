@@ -12,32 +12,50 @@ const ToyCategories = () => {
     {
       id: 1,
       name: "Electric Magnetic Caterpillar",
-      image: "/IMG-20250816-WA0395 copy.jpg",
-      description: "Interactive magnetic caterpillar toy with lights and sounds"
+      image: "https://images.pexels.com/photos/8088495/pexels-photo-8088495.jpeg?auto=compress&cs=tinysrgb&w=400",
+      description: "Interactive magnetic caterpillar with lights, sounds and movement features"
     },
     {
       id: 2,
       name: "Jumping Dog - Musical Pet",
-      image: "/IMG-20250816-WA0398 copy.jpg",
+      image: "https://images.pexels.com/photos/8088501/pexels-photo-8088501.jpeg?auto=compress&cs=tinysrgb&w=400",
       description: "Adorable jumping dog with music, lighting, and walking features"
     },
     {
       id: 3,
-      name: "Jumping Cat - Interactive Pet",
-      image: "/IMG-20250816-WA0399.jpg",
+      name: "Jumping Cat - Interactive Pet", 
+      image: "https://images.pexels.com/photos/8088502/pexels-photo-8088502.jpeg?auto=compress&cs=tinysrgb&w=400",
       description: "Musical jumping cat with multiple songs and interactive features"
     },
     {
       id: 4,
       name: "English Learner Laptop",
-      image: "/IMG-20250816-WA0411.jpg",
+      image: "https://images.pexels.com/photos/8088503/pexels-photo-8088503.jpeg?auto=compress&cs=tinysrgb&w=400",
       description: "Educational laptop for learning English with interactive activities"
     },
     {
       id: 5,
       name: "Learning Activity Board",
-      image: "/IMG-20250816-WA0443.jpg",
+      image: "https://images.pexels.com/photos/8088504/pexels-photo-8088504.jpeg?auto=compress&cs=tinysrgb&w=400", 
       description: "Interactive learning board with buttons, zippers, and educational activities"
+    },
+    {
+      id: 6,
+      name: "Swan Will Lay Eggs",
+      image: "https://images.pexels.com/photos/8088505/pexels-photo-8088505.jpeg?auto=compress&cs=tinysrgb&w=400",
+      description: "Interactive swan toy with egg-laying feature and musical sounds"
+    },
+    {
+      id: 7,
+      name: "Wild Animal Set",
+      image: "https://images.pexels.com/photos/8088506/pexels-photo-8088506.jpeg?auto=compress&cs=tinysrgb&w=400",
+      description: "Collection of realistic wild animal figures for imaginative play"
+    },
+    {
+      id: 8,
+      name: "Rotation Music Cake",
+      image: "https://images.pexels.com/photos/8088507/pexels-photo-8088507.jpeg?auto=compress&cs=tinysrgb&w=400",
+      description: "Musical birthday cake toy with rotating carousel and lights"
     }
   ];
 
