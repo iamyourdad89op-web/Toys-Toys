@@ -111,24 +111,18 @@ const ToyCategories = () => {
     },
     {
       id: 12,
-      name: "Racing Champion",
-      image: "/car toys/unnamed (1) copy.webp",
-      description: "Championship racing car for winners"
-    },
-    {
-      id: 13,
       name: "Super Speed Car",
       image: "/car toys/unnamed (3) copy.webp",
       description: "Super speed car for ultimate racing experience"
     },
     {
-      id: 14,
+      id: 13,
       name: "Elite Racing Car",
       image: "/car toys/unnamed (4) copy.webp",
       description: "Elite racing car with professional grade quality"
     },
     {
-      id: 15,
+      id: 14,
       name: "Ultimate RC Car",
       image: "/car toys/unnamed (1) copy copy.webp",
       description: "Ultimate remote control car with advanced technology"
