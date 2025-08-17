@@ -88,3 +88,4 @@ export default function ToyModal({ isOpen, onClose, category, toys }: ToyModalPr
       </div>
     </div>
   );
+}
