@@ -82,7 +82,7 @@ const ToyCategories = () => {
     {
       id: 7,
       name: "RC Sports Car",
-      image: "/car toys/unnamed (1).jpg",
+      image: "/car toys/unnamed (1) copy.jpg",
       description: "Remote control sports car with advanced features"
     },
     {
@@ -111,30 +111,24 @@ const ToyCategories = () => {
     },
     {
       id: 12,
-      name: "Luxury Sports Car",
-      image: "/car toys/unnamed (1) copy.jpg",
-      description: "Luxury sports car with premium features"
-    },
-    {
-      id: 13,
       name: "Racing Champion",
       image: "/car toys/unnamed (1) copy.webp",
       description: "Championship racing car for winners"
     },
     {
-      id: 14,
+      id: 13,
       name: "Super Speed Car",
       image: "/car toys/unnamed (3) copy.webp",
       description: "Super speed car for ultimate racing experience"
     },
     {
-      id: 15,
+      id: 14,
       name: "Elite Racing Car",
       image: "/car toys/unnamed (4) copy.webp",
       description: "Elite racing car with professional grade quality"
     },
     {
-      id: 16,
+      id: 15,
       name: "Ultimate RC Car",
       image: "/car toys/unnamed (1) copy copy.webp",
       description: "Ultimate remote control car with advanced technology"
