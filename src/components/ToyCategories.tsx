@@ -99,33 +99,9 @@ const ToyCategories = () => {
     },
     {
       id: 10,
-      name: "Classic Car Model",
-      image: "/car toys/unnamed copy.jpg",
-      description: "Classic car model with vintage styling"
-    },
-    {
-      id: 11,
       name: "Speed Racer",
       image: "/car toys/unnamed copy.webp",
       description: "High-speed racing car for thrilling adventures"
-    },
-    {
-      id: 12,
-      name: "Super Speed Car",
-      image: "/car toys/unnamed (3) copy.webp",
-      description: "Super speed car for ultimate racing experience"
-    },
-    {
-      id: 13,
-      name: "Elite Racing Car",
-      image: "/car toys/unnamed (4) copy.webp",
-      description: "Elite racing car with professional grade quality"
-    },
-    {
-      id: 14,
-      name: "Ultimate RC Car",
-      image: "/car toys/unnamed (1) copy copy.webp",
-      description: "Ultimate remote control car with advanced technology"
     }
   ];
 
