@@ -80,6 +80,17 @@ const ToyCategories = () => {
               key={index}
               className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden border border-gray-100"
             >
+              {/* Add image for Baby Toys category */}
+              {category.name === "Baby Toys" && (
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src="https://images.pexels.com/photos/1148998/pexels-photo-1148998.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                    alt="Colorful baby toys including blocks and rattles"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+              )}
+              
               <div className={`bg-gradient-to-br ${category.color} p-6 text-center relative overflow-hidden`}>
                 <div className="absolute top-2 right-2 text-2xl">
                   {category.emoji}
