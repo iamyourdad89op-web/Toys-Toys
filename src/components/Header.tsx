@@ -47,7 +47,12 @@ const Header = () => {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="md:hidden p-2 rounded-lg bg-blue-100 text-blue-600"
           >
-            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            <div className="flex items-center space-x-2">
+              <p className="text-sm text-gray-600">World of Fun & Imagination</p>
+              <span className="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full font-medium">
+                Currently in Beta version
+              </span>
+            </div>
           </button>
         </div>
 
