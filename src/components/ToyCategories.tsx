@@ -36,7 +36,7 @@ const ToyCategories = () => {
     {
       id: 5,
       name: "",
-      image: "",
+      image: "IMG-20250816-WA0411.jpg"",
       description: ""
     }
   ];
