@@ -41,8 +41,39 @@ const ToyCategories = () => {
     }
   ];
 
+  // Car toys data
+  const carToys = [
+    {
+      id: 1,
+      name: "Blue Cement Mixer Truck",
+      image: "/car toys/Imges.webp",
+      description: "Fun blue cement mixer truck toy for construction play"
+    },
+    {
+      id: 2,
+      name: "Remote Control Cars Collection",
+      image: "/car toys/unnamed (1).webp",
+      description: "Various remote control cars for racing fun"
+    },
+    {
+      id: 3,
+      name: "Racing Car Set",
+      image: "/car toys/unnamed.jpg",
+      description: "Colorful racing cars for speed enthusiasts"
+    },
+    {
+      id: 4,
+      name: "Vehicle Collection",
+      image: "/car toys/unnamed.webp",
+      description: "Assorted toy vehicles for imaginative play"
+    }
+  ];
+
   const handleExploreClick = (categoryName: string) => {
     if (categoryName === "Baby Toys") {
+      setSelectedCategory(categoryName);
+      setModalOpen(true);
+    } else if (categoryName === "RC Cars & Vehicles") {
       setSelectedCategory(categoryName);
       setModalOpen(true);
     }
@@ -177,7 +208,7 @@ const ToyCategories = () => {
         isOpen={modalOpen}
         onClose={() => setModalOpen(false)}
         category={selectedCategory}
-        toys={babyToys}
+        toys={selectedCategory === "Baby Toys" ? babyToys : (selectedCategory === "RC Cars & Vehicles" ? carToys : [])}
       />
     </section>
   );
