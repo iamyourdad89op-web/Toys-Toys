@@ -14,7 +14,7 @@ interface ToyModalProps {
   }>;
 }
 
-const ToyModal: React.FC<ToyModalProps> = ({ isOpen, onClose, category, toys }) => {
+export default function ToyModal({ isOpen, onClose, category, toys }: ToyModalProps) {
   if (!isOpen) return null;
 
   return (
@@ -88,6 +88,3 @@ const ToyModal: React.FC<ToyModalProps> = ({ isOpen, onClose, category, toys }) 
       </div>
     </div>
   );
-};
-
-export default ToyModal;
