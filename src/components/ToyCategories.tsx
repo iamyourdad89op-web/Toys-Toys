@@ -12,13 +12,13 @@ const ToyCategories = () => {
     {
       id: 1,
       name: "",
-      image: "/IMG-20250816-WA0395 copy.jpg",
+      image: "/IMG-20250816-WA0395%20copy.jpg",
       description: ""
     },
     {
       id: 2,
       name: "",
-      image: "/IMG-20250816-WA0398 copy.jpg",
+      image: "/IMG-20250816-WA0398%20copy.jpg",
       description: ""
     },
     {
@@ -36,7 +36,7 @@ const ToyCategories = () => {
     {
       id: 5,
       name: "",
-      image: "IMG-20250816-WA0411.jpg",
+      image: "/IMG-20250816-WA0411.jpg",
       description: ""
     }
   ];

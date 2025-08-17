@@ -51,7 +51,7 @@ const ToyModal: React.FC<ToyModalProps> = ({ isOpen, onClose, category, toys }) 
                       target.nextElementSibling!.classList.remove('hidden');
                     }}
                   />
-                  <div className="hidden text-6xl">👶</div>
+                  <div className="hidden text-6xl text-gray-400">📷</div>
                 </div>
                 <div className="p-4">
                   <h3 className="font-bold text-lg text-gray-800 mb-2">{toy.name}</h3>
