@@ -69,6 +69,40 @@ const ToyCategories = () => {
     }
   ];
 
+  // Puzzles & Games data
+  const puzzlesGames = [
+    {
+      id: 1,
+      name: "Learning English Educational Mat",
+      image: "/puzzle & games/IMG-20250816-WA0188.jpg",
+      description: "Interactive learning mat for English education and fun activities"
+    },
+    {
+      id: 2,
+      name: "Play House Indoor/Outdoor Tent",
+      image: "/puzzle & games/IMG-20250816-WA0190.jpg",
+      description: "Colorful play tent for indoor and outdoor adventures"
+    },
+    {
+      id: 3,
+      name: "Pool Table Tabletop Game",
+      image: "/puzzle & games/IMG-20250816-WA0259.jpg",
+      description: "Professional tabletop pool table for family fun"
+    },
+    {
+      id: 4,
+      name: "Football Championship Table Game",
+      image: "/puzzle & games/IMG-20250816-WA0260.jpg",
+      description: "Exciting tabletop football game for competitive play"
+    },
+    {
+      id: 5,
+      name: "Avengers Spinning Tops",
+      image: "/puzzle & games/IMG-20250816-WA0271.jpg",
+      description: "Marvel Avengers themed spinning tops for rhythmic play"
+    }
+  ];
+
   // Car toys data
   const carToys = [
     {
@@ -141,6 +175,9 @@ const ToyCategories = () => {
       setSelectedCategory(categoryName);
       setModalOpen(true);
     } else if (categoryName === "Dolls & Plushies") {
+      setSelectedCategory(categoryName);
+      setModalOpen(true);
+    } else if (categoryName === "Puzzles & Games") {
       setSelectedCategory(categoryName);
       setModalOpen(true);
     }
