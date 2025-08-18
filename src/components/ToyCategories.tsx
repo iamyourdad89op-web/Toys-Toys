@@ -167,6 +167,40 @@ const ToyCategories = () => {
     }
   ];
 
+  // Action Figures data
+  const actionFigures = [
+    {
+      id: 1,
+      name: "Spider-Man Action Figure",
+      image: "/action figures/IMG-20250816-WA0009.jpg",
+      description: "Amazing Spider-Man action figure with web-slinging action"
+    },
+    {
+      id: 2,
+      name: "Hero Action Figure Set",
+      image: "/action figures/IMG-20250816-WA0069.jpg",
+      description: "Collection of superhero action figures for epic adventures"
+    },
+    {
+      id: 3,
+      name: "Premium Action Figure",
+      image: "/action figures/IMG-20250816-WA0083.jpg",
+      description: "High-quality action figure with detailed features"
+    },
+    {
+      id: 4,
+      name: "Adventure Action Figure",
+      image: "/action figures/IMG-20250816-WA0092.jpg",
+      description: "Action-packed figure ready for exciting adventures"
+    },
+    {
+      id: 5,
+      name: "Superhero Collection",
+      image: "/action figures/IMG-20250816-WA0094.jpg",
+      description: "Complete superhero action figure collection"
+    }
+  ];
+
   const handleExploreClick = (categoryName: string) => {
     if (categoryName === "Baby Toys") {
       setSelectedCategory(categoryName);
@@ -178,6 +212,9 @@ const ToyCategories = () => {
       setSelectedCategory(categoryName);
       setModalOpen(true);
     } else if (categoryName === "Puzzles & Games") {
+      setSelectedCategory(categoryName);
+      setModalOpen(true);
+    } else if (categoryName === "Action Figures") {
       setSelectedCategory(categoryName);
       setModalOpen(true);
     }
@@ -316,7 +353,8 @@ const ToyCategories = () => {
           selectedCategory === "Baby Toys" ? babyToys : 
           selectedCategory === "RC Cars & Vehicles" ? carToys :
           selectedCategory === "Dolls & Plushies" ? dollsPlushies :
-          selectedCategory === "Puzzles & Games" ? puzzlesGames : []
+          selectedCategory === "Puzzles & Games" ? puzzlesGames :
+          selectedCategory === "Action Figures" ? actionFigures : []
         }
       />
     </section>
