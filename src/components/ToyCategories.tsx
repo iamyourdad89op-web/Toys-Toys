@@ -41,6 +41,34 @@ const ToyCategories = () => {
     }
   ];
 
+  // Dolls & Plushies data
+  const dollsPlushies = [
+    {
+      id: 1,
+      name: "Beautiful Doll Collection",
+      image: "/dolls & plushies/IMG-20250816-WA0001.jpg",
+      description: "Adorable dolls with beautiful dresses and accessories"
+    },
+    {
+      id: 2,
+      name: "Premium Doll Set",
+      image: "/dolls & plushies/IMG-20250816-WA0104.jpg",
+      description: "High-quality dolls perfect for imaginative play"
+    },
+    {
+      id: 3,
+      name: "Classic Doll Collection",
+      image: "/dolls & plushies/IMG-20250816-WA0106.jpg",
+      description: "Classic style dolls with timeless appeal"
+    },
+    {
+      id: 4,
+      name: "Deluxe Doll Set",
+      image: "/dolls & plushies/IMG-20250816-WA0120.jpg",
+      description: "Deluxe dolls with premium features and accessories"
+    }
+  ];
+
   // Car toys data
   const carToys = [
     {
@@ -110,6 +138,9 @@ const ToyCategories = () => {
       setSelectedCategory(categoryName);
       setModalOpen(true);
     } else if (categoryName === "RC Cars & Vehicles") {
+      setSelectedCategory(categoryName);
+      setModalOpen(true);
+    } else if (categoryName === "Dolls & Plushies") {
       setSelectedCategory(categoryName);
       setModalOpen(true);
     }
@@ -244,7 +275,11 @@ const ToyCategories = () => {
         isOpen={modalOpen}
         onClose={() => setModalOpen(false)}
         category={selectedCategory}
-        toys={selectedCategory === "Baby Toys" ? babyToys : (selectedCategory === "RC Cars & Vehicles" ? carToys : [])}
+        toys={
+          selectedCategory === "Baby Toys" ? babyToys : 
+          selectedCategory === "RC Cars & Vehicles" ? carToys :
+          selectedCategory === "Dolls & Plushies" ? dollsPlushies : []
+        }
       />
     </section>
   );
