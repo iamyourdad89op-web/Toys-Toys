@@ -278,7 +278,8 @@ const ToyCategories = () => {
         toys={
           selectedCategory === "Baby Toys" ? babyToys : 
           selectedCategory === "RC Cars & Vehicles" ? carToys :
-          selectedCategory === "Dolls & Plushies" ? dollsPlushies : []
+          selectedCategory === "Dolls & Plushies" ? dollsPlushies :
+          selectedCategory === "Puzzles & Games" ? puzzlesGames : []
         }
       />
     </section>
