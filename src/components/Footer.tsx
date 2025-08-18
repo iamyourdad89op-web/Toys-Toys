@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
 
             <p className="text-gray-500 text-xs mt-4">
-              © 2024 Toys & Toys. All rights reserved. • Website design for demonstration purposes.
+              © 2024 Toys & Toys. All rights reserved.
             </p>
           </div>
         </div>
