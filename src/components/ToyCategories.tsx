@@ -201,6 +201,40 @@ const ToyCategories = () => {
     }
   ];
 
+  // Educational Toys data
+  const educationalToys = [
+    {
+      id: 1,
+      name: "Learning Activity Set",
+      image: "/educational toys/images (1).jpg",
+      description: "Interactive learning activities for early childhood development"
+    },
+    {
+      id: 2,
+      name: "Educational Building Blocks",
+      image: "/educational toys/556729173-600x450.jpeg",
+      description: "Colorful building blocks to enhance creativity and motor skills"
+    },
+    {
+      id: 3,
+      name: "Learning Games Collection",
+      image: "/educational toys/images (2).jpg",
+      description: "Fun educational games that make learning enjoyable"
+    },
+    {
+      id: 4,
+      name: "STEM Learning Kit",
+      image: "/educational toys/images (3).jpg",
+      description: "Science, technology, engineering and math learning activities"
+    },
+    {
+      id: 5,
+      name: "Interactive Learning Toys",
+      image: "/educational toys/images (4).jpg",
+      description: "Hands-on educational toys for active learning"
+    }
+  ];
+
   const handleExploreClick = (categoryName: string) => {
     if (categoryName === "Baby Toys") {
       setSelectedCategory(categoryName);
@@ -215,6 +249,9 @@ const ToyCategories = () => {
       setSelectedCategory(categoryName);
       setModalOpen(true);
     } else if (categoryName === "Action Figures") {
+      setSelectedCategory(categoryName);
+      setModalOpen(true);
+    } else if (categoryName === "Educational Toys") {
       setSelectedCategory(categoryName);
       setModalOpen(true);
     }
@@ -354,7 +391,8 @@ const ToyCategories = () => {
           selectedCategory === "RC Cars & Vehicles" ? carToys :
           selectedCategory === "Dolls & Plushies" ? dollsPlushies :
           selectedCategory === "Puzzles & Games" ? puzzlesGames :
-          selectedCategory === "Action Figures" ? actionFigures : []
+          selectedCategory === "Action Figures" ? actionFigures :
+          selectedCategory === "Educational Toys" ? educationalToys : []
         }
       />
     </section>
